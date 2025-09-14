@@ -2,7 +2,6 @@ import os
 import json
 from github import Github
 from google import genai
-from google.genai.errors import GenAiError
 import sys
 
 # Args
@@ -44,7 +43,7 @@ for model in model_list:
         response = client.models.generate_content(model=model, contents=prompt)
         response_text = response.text
         break
-    except GenAiError as e:
+    except Exception as e:  # ✅ catch generic Exception instead of GenAiError
         print(f"Model {model} failed: {e}. Trying next model...")
         continue
 

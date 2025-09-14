@@ -1,6 +1,6 @@
 import os
 import sys
-from github import Github
+from github import Github, Auth
 from google import genai
 from pydantic import BaseModel
 from typing import List
@@ -76,17 +76,20 @@ if response_parsed is None:
 # -----------------------------
 # Initialize GitHub
 # -----------------------------
-gh = Github(GITHUB_TOKEN)
+gh = Github(auth=Auth.Token(GITHUB_TOKEN))
 repo = gh.get_repo(REPO_NAME)
 pr = repo.get_pull(PR_NUMBER)
 
 # -----------------------------
 # Post comments
 # -----------------------------
+# Fetch the HEAD commit object for the PR
+head_commit = repo.get_commit(pr.head.sha)
+
 for comment in response_parsed.comments:
     pr.create_review_comment(
         body=comment.comment,
-        commit_id=pr.head.sha,
+        commit=head_commit,
         path=comment.file,
         position=comment.line,
     )

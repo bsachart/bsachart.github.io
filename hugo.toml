@@ -1,5 +1,4 @@
-baseURL = "https://USERNAME.github.io/myblog/"
-languageCode = "en-us"
+baseURL = "https://bsachart.github.io/"
 title = "My Blog"
 theme = "PaperMod"
 

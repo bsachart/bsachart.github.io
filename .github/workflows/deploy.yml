@@ -6,6 +6,9 @@ on:
     workflows: ["AI Code Review"]
     types:
       - completed
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -15,7 +18,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name == 'push' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       # 1. Checkout repository
       - uses: actions/checkout@v4

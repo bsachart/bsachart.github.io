@@ -56,6 +56,6 @@ The reality is that we are already in an uncontrolled public health crisis. Proh
 
 This case is not built on the naive idea that cocaine or heroin are "safe", but on the undeniable recognition that they are being used regardless of their legal status. Prohibition has failed to stop this reality.
 
-The current war on drugs is a chaotic, violent, and failed policy. The model proposed here offers a path to collapsing the black market, reducing crime, saving countless lives from overdoses, and connecting people to the healthcare they need. We have a choice. We can continue with the pretense of a war we have already lost, or we can embrace a brave, intelligent system designed to manage risk, minimize harm, and enhance public safety. The choice is between pretending to have control and actually having it.
+The current war on drugs is a chaotic, violent, and failed policy. The model proposed here offers a path to collapsing the black market, reducing crime, saving countless lives from overdoses, and connecting people to the healthcare they need.
 
 On a personal note, having stopped drinking alcohol and never having used other drugs, I have no interest in using these substances in my daily life. The only time I plan to engage with the most powerful drugs available is on my deathbed.

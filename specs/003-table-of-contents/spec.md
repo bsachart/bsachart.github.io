@@ -22,17 +22,17 @@ As a reader, I want to quickly overview the article's structure and jump directl
 
 ---
 
-### User Story 2 - Mobile Accessibility (Priority: P2)
+### User Story 2 - Mobile Navigation (Priority: P2)
 
-As a mobile reader, I want the table of contents to be easily accessible without obstructing the main reading flow, allowing me to navigate the post efficiently on a small screen.
+As a mobile reader, I want a floating navigation tool so I can jump between sections easily without having to scroll back to the beginning of the article.
 
-**Why this priority**: A significant portion of blog traffic is mobile; a desktop-only TOC would fail a large segment of users.
-
-**Independent Test**: Can be tested by resizing the browser to mobile dimensions and verifying the TOC remains functional and legible.
+**Why this priority**: Long-form content on mobile is exhausting without navigation shortcuts.
 
 **Acceptance Scenarios**:
 
-1. **Given** a mobile viewport, **When** viewing a post, **Then** the TOC should be presented in a way that respects the smaller screen width and remains readable.
+1. **Given** a mobile viewport, **When** I scroll down, **Then** a minimalist "Contents" button is available.
+2. **When** I tap the button, **Then** a full-screen or slide-out menu with the TOC appears.
+3. **When** I select a section, **Then** I am scrolled to it and the menu closes.
 
 ---
 

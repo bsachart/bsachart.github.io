@@ -351,10 +351,6 @@ a:hover {
     right: 1rem;
   }
 
-  .toc-sidebar {
-    display: none;
-  }
-
   .mobile-toc-toggle {
     display: flex;
     position: fixed;

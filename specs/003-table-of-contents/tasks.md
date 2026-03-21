@@ -17,7 +17,7 @@
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Configure Hugo Goldmark TOC levels (startLevel=2, endLevel=3) in `hugo.toml`
+- [x] T001 Configure Hugo Goldmark TOC levels (startLevel=2, endLevel=3) in `hugo.toml`
 
 ---
 
@@ -25,7 +25,7 @@
 
 **Purpose**: Core infrastructure that MUST be complete before ANY user story can be implemented
 
-- [ ] T002 [P] Create `.toc-container` CSS class placeholder in `assets/css/main.css`
+- [x] T002 [P] Create `.toc-container` CSS class placeholder in `assets/css/main.css`
 
 **Checkpoint**: Foundation ready - user story implementation can now begin.
 
@@ -39,10 +39,10 @@
 
 ### Implementation for User Story 1
 
-- [ ] T003 [US1] Insert Hugo's `{{ .TableOfContents }}` variable into `layouts/_default/single.html`
-- [ ] T004 [US1] Add "Table of Contents" title and container wrap to TOC in `layouts/_default/single.html`
-- [ ] T005 [P] [US1] Apply typography and list styling for `#TableOfContents` in `assets/css/main.css`
-- [ ] T006 [P] [US1] Style TOC links using design system color tokens in `assets/css/main.css`
+- [x] T003 [US1] Insert Hugo's `{{ .TableOfContents }}` variable into `layouts/_default/single.html`
+- [x] T004 [US1] Add "Table of Contents" title and container wrap to TOC in `layouts/_default/single.html`
+- [x] T005 [P] [US1] Apply typography and list styling for `#TableOfContents` in `assets/css/main.css`
+- [x] T006 [P] [US1] Style TOC links using design system color tokens in `assets/css/main.css`
 
 **Checkpoint**: User Story 1 (MVP) is fully functional and testable independently.
 
@@ -56,8 +56,8 @@
 
 ### Implementation for User Story 2
 
-- [ ] T007 [P] [US2] Add responsive media queries for `.toc-container` in `assets/css/main.css`
-- [ ] T008 [US2] Increase line-height and padding for TOC links on mobile in `assets/css/main.css`
+- [x] T007 [P] [US2] Add responsive media queries for `.toc-container` in `assets/css/main.css`
+- [x] T008 [US2] Increase line-height and padding for TOC links on mobile in `assets/css/main.css`
 
 **Checkpoint**: User Story 2 is functional and improves mobile experience.
 
@@ -67,9 +67,9 @@
 
 **Purpose**: Final refinements and verification.
 
-- [ ] T009 Verify TOC does not render for articles with fewer than 2 headings.
-- [ ] T010 [P] Final audit of TOC accessibility (ARIA roles and semantic HTML).
-- [ ] T011 Run `quickstart.md` validation.
+- [x] T009 Verify TOC does not render for articles with fewer than 2 headings.
+- [x] T010 [P] Final audit of TOC accessibility (ARIA roles and semantic HTML).
+- [x] T011 Run `quickstart.md` validation.
 
 ---
 

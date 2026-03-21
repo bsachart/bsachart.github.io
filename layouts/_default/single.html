@@ -8,6 +8,15 @@
   </header>
 
   <div class="content container" style="padding-top: 0; font-size: 1.125rem;">
+    {{ if .Params.toc | default true }}
+    {{ if gt (len .TableOfContents) 30 }}
+    <nav class="toc-container">
+      <h2>Table of Contents</h2>
+      {{ .TableOfContents }}
+    </nav>
+    {{ end }}
+    {{ end }}
+
     {{ .Content }}
   </div>
 

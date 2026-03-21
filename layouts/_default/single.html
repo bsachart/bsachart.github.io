@@ -1,13 +1,80 @@
-<!DOCTYPE html>
-<html>
+{{ define "main" }}
+<article>
+  <div class="article-layout{{ if not (and .TableOfContents (findRE " <li>" .TableOfContents)) }} no-toc{{ end }}">
+    <header style="grid-column: 2; margin-bottom: 3rem; text-align: {{ if eq .Type " page" }}left{{ else }}center{{ end
+      }};">
+      <h1 style="font-size: 3rem; margin-bottom: 0.5rem; text-wrap: balance;">{{ .Title }}</h1>
+      {{ if eq .Type "posts" }}
+      <div class="metadata">
+        Published on {{ .Date.Format "January 2, 2006" }}
+      </div>
+      {{ end }}
+    </header>
 
-{{ partial "head.html" . }}
+    {{ if .Params.toc | default true }}
+    {{ if and .TableOfContents (findRE "<li>" .TableOfContents) }}
+      <aside class="toc-sidebar">
+        <div class="toc-sticky-container">
+          <h2>Contents</h2>
+          {{ .TableOfContents }}
+        </div>
+      </aside>
 
-<body>
-  <h1>{{ .Title }}</h1>
-  <p><em>Published on {{ .Date.Format "January 2, 2006" }}</em></p>
-  <div>{{ .Content }}</div>
-  <p><a href="/">Back to Home</a></p>
-</body>
+      <!-- Mobile TOC Button & Overlay -->
+      <button class="mobile-toc-toggle" onclick="toggleMobileTOC()" aria-label="Open Table of Contents">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
 
-</html>
+      <div class="mobile-toc-overlay" id="mobileTocOverlay">
+        <button class="close-button" onclick="toggleMobileTOC()" aria-label="Close Table of Contents">&times;</button>
+        <div class="toc-sticky-container">
+          <h2
+            style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--metadata-text-color); margin-bottom: 2rem; font-family: var(--font-ui);">
+            Contents</h2>
+          {{ .TableOfContents }}
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+
+      <div class="content">
+        {{ .Content }}
+      </div>
+
+      {{ if eq .Type "posts" }}
+      <div class="further-reading">
+        <h2 class="further-reading-title">Further Reading</h2>
+        <div class="further-reading-grid">
+          <div class="further-reading-prev">
+            {{ with .NextInSection }}
+            <div class="further-reading-label">Previous</div>
+            <a href="{{ .Permalink }}">
+              <h3 class="post-title">{{ .Title }}</h3>
+              <p class="metadata">{{ .Date.Format "January 2, 2006" }}</p>
+            </a>
+            {{ end }}
+          </div>
+          <div class="further-reading-next">
+            {{ with .PrevInSection }}
+            <div class="further-reading-label">Next</div>
+            <a href="{{ .Permalink }}">
+              <h3 class="post-title">{{ .Title }}</h3>
+              <p class="metadata">{{ .Date.Format "January 2, 2006" }}</p>
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+
+      <footer class="article-footer">
+        <a href="{{ site.BaseURL }}">Back to Home</a>
+      </footer>
+  </div>
+</article>
+{{ end }}

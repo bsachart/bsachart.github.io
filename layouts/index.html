@@ -1,18 +1,20 @@
-<!DOCTYPE html>
-<html>
+{{ define "main" }}
+<div class="container">
+  <header style="margin-bottom: 4rem; text-align: center;">
+    <h1 style="font-size: 3rem; margin: 0;">{{ site.Title }}</h1>
+  </header>
 
-{{ partial "head.html" . }}
-
-<body>
-  <h1>{{ .Site.Title }}</h1>
-  <ul>
-    {{ range .Site.RegularPages }}
-    <li>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      <small>(Published on {{ .Date.Format "January 2, 2006" }})</small>
-    </li>
+  <div style="display: flex; flex-direction: column; gap: 3rem;">
+    {{ range where .Site.RegularPages "Type" "posts" }}
+    <article>
+      <h2 style="margin: 0 0 0.5rem 0; font-size: 1.5rem; font-weight: 500;">
+        <a href="{{ .Permalink }}" style="text-decoration: none;">{{ .Title }}</a>
+      </h2>
+      <div class="metadata">
+        Published on {{ .Date.Format "January 2, 2006" }}
+      </div>
+    </article>
     {{ end }}
-  </ul>
-</body>
-
-</html>
+  </div>
+</div>
+{{ end }}

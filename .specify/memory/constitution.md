@@ -1,10 +1,8 @@
 <!--
 Sync Impact Report:
-- Version change: 1.1.0 → 1.2.0
+- Version change: 1.2.0 → 1.3.0
 - List of modified principles:
-  - Added VI. High Leverage Prioritization
-  - Added VII. Specification as Source of Truth
-  - Added VIII. Verification & Validation
+  - Added IX. Design System Adherence
 - Added sections: None
 - Removed sections: None
 - Templates requiring updates: ✅ None
@@ -51,6 +49,10 @@ Because our collaboration relies on design documents (`spec.md`, `plan.md`, `con
 
 To ensure no broken code is shipped, all changes MUST be verified via command-line execution, build checks, or automated tests before being reported as complete. No task is considered "Ready" or "Done" based on output alone.
 
+### IX. Design System Adherence
+
+All user interface changes MUST comply with the project's established design system (Anthemion Editorial). Typography, color palettes, and interaction patterns must utilize the defined design tokens to maintain a consistent, minimalist, and editorial aesthetic across all views.
+
 ## External Documentation
 
 This project relies on the following official resources for guidance and best practices:
@@ -65,4 +67,4 @@ This project relies on the following official resources for guidance and best pr
 
 Amendments to this constitution require a version bump following semantic versioning rules and should be documented in the Sync Impact Report. All contributions must comply with these principles.
 
-**Version**: 1.2.0 | **Ratified**: 2026-03-21 | **Last Amended**: 2026-03-21
+**Version**: 1.3.0 | **Ratified**: 2026-03-21 | **Last Amended**: 2026-03-21

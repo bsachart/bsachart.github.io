@@ -2,10 +2,13 @@
 <div class="container">
   <header style="margin-bottom: 4rem; text-align: center;">
     <h1 style="font-size: 3rem; margin: 0;">{{ site.Title }}</h1>
+    <nav style="margin-top: 1rem; font-family: var(--font-ui); font-size: 1rem;">
+      <a href="/about/">About</a>
+    </nav>
   </header>
 
   <div style="display: flex; flex-direction: column; gap: 3rem;">
-    {{ range .Site.RegularPages }}
+    {{ range where .Site.RegularPages "Type" "posts" }}
     <article>
       <h2 style="margin: 0 0 0.5rem 0; font-size: 1.5rem; font-weight: 500;">
         <a href="{{ .Permalink }}" style="text-decoration: none;">{{ .Title }}</a>

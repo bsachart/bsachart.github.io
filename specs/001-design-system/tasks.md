@@ -19,8 +19,8 @@ description: 'Task list template for feature implementation'
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 [P] Ensure Hugo structure contains `assets/css/` directory and `layouts/_default/` directory
-- [ ] T002 [P] Create base Hugo HTML wrapper in `layouts/_default/baseof.html` if it does not exist
+- [x] T001 [P] Ensure Hugo structure contains `assets/css/` directory and `layouts/_default/` directory
+- [x] T002 [P] Create base Hugo HTML wrapper in `layouts/_default/baseof.html` if it does not exist
 
 ## Phase 2: Foundational (Blocking Prerequisites)
 
@@ -28,7 +28,7 @@ description: 'Task list template for feature implementation'
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T003 Add Google Fonts `<link>` tags for Newsreader and Manrope to the document head (`layouts/partials/head.html` or `layouts/_default/baseof.html`)
+- [x] T003 Add Google Fonts `<link>` tags for Newsreader and Manrope to the document head (`layouts/partials/head.html` or `layouts/_default/baseof.html`)
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 
@@ -42,10 +42,10 @@ description: 'Task list template for feature implementation'
 
 ### Implementation for User Story 1
 
-- [ ] T004 [P] [US1] Create global stylesheet `assets/css/main.css` containing all `:root` typographic and color design tokens per `data-model.md`
-- [ ] T005 [P] [US1] Append `@media (prefers-color-scheme: dark)` mode overrides to `assets/css/main.css`
-- [ ] T006 [US1] Link `assets/css/main.css` into the HTML layout head (`layouts/_default/baseof.html` or `layouts/partials/head.html`)
-- [ ] T007 [US1] Ensure `body` tag applies the background variable and global text color variable
+- [x] T004 [P] [US1] Create global stylesheet `assets/css/main.css` containing all `:root` typographic and color design tokens per `data-model.md`
+- [x] T005 [P] [US1] Append `@media (prefers-color-scheme: dark)` mode overrides to `assets/css/main.css`
+- [x] T006 [US1] Link `assets/css/main.css` into the HTML layout head (`layouts/_default/baseof.html` or `layouts/partials/head.html`)
+- [x] T007 [US1] Ensure `body` tag applies the background variable and global text color variable
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently
 
@@ -59,9 +59,9 @@ description: 'Task list template for feature implementation'
 
 ### Implementation for User Story 2
 
-- [ ] T008 [P] [US2] Update `layouts/index.html` to remove any 'About' link or decorative elements
-- [ ] T009 [US2] Apply layout container logic in `layouts/index.html` to center content
-- [ ] T010 [US2] Ensure Newsreader is mapped for post titles and Manrope for dates/descriptions in `layouts/index.html` structure
+- [x] T008 [P] [US2] Update `layouts/index.html` to remove any 'About' link or decorative elements
+- [x] T009 [US2] Apply layout container logic in `layouts/index.html` to center content
+- [x] T010 [US2] Ensure Newsreader is mapped for post titles and Manrope for dates/descriptions in `layouts/index.html` structure
 
 **Checkpoint**: At this point, User Stories 1 AND 2 should both work independently
 

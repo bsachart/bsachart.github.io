@@ -1,10 +1,30 @@
 <head>
-  <meta charset="UTF-8">
-  <title>{{ .Page.Title | default .Site.Title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+
+  <!-- Google Fonts: Newsreader & Manrope -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Newsreader:wght@400;700&display=swap" rel="stylesheet">
-  {{ $style := resources.Get "css/style.css" | minify | fingerprint }}
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,700;1,6..72,400&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Design Tokens -->
+  {{ $style := resources.Get "css/main.css" }}
+  {{ if $style }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-  <link rel="icon" href="/favicon.png" type="image/png">
+  {{ end }}
+
+  <script>
+    (function () {
+      var localTheme = localStorage.getItem('theme');
+      var isDarkSystem = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (localTheme === 'dark' || (!localTheme && isDarkSystem)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
 </head>

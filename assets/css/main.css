@@ -1,0 +1,154 @@
+:root {
+  /* Font Families */
+  --font-heading: 'Newsreader', serif;
+  --font-body: 'Manrope', sans-serif;
+  --font-metadata: var(--font-body);
+  --font-ui: var(--font-body);
+
+  /* Font Weights */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+
+  /* Line Heights */
+  --lh-body: 1.6;
+  --lh-heading: 1.2;
+
+  /* Light Mode Base Variables */
+  --bg-color: #f8f9fa;
+  --text-color: #212529;
+  --metadata-text-color: #6c757d;
+
+  /* Link Interactions */
+  --link-color: inherit;
+  --link-hover-color: #10b981; /* Emerald green */
+}
+
+:root[data-theme='dark'] {
+  --bg-color: #121212;
+  --text-color: #f8f9fa;
+  --metadata-text-color: #adb5bd;
+  --link-hover-color: #34d399; /* Higher contrast emerald */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    /* Dark Mode Variable Overrides */
+    --bg-color: #121212;
+    --text-color: #f8f9fa;
+    --metadata-text-color: #adb5bd;
+    --link-hover-color: #34d399; /* Higher contrast emerald */
+  }
+}
+
+/* Global Elements */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-body);
+  line-height: var(--lh-body);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  line-height: var(--lh-heading);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+.metadata {
+  color: var(--metadata-text-color);
+  font-family: var(--font-metadata);
+  font-size: 0.9rem;
+}
+
+/* Layout Utilities */
+.container {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: var(--text-color);
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+}
+
+.theme-toggle:hover {
+  color: var(--link-hover-color);
+}
+
+.sun-icon,
+.moon-icon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:root[data-theme='dark'] .moon-icon {
+  display: none;
+}
+:root[data-theme='dark'] .sun-icon {
+  display: block;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .moon-icon {
+    display: none;
+  }
+  :root:not([data-theme='light']) .sun-icon {
+    display: block;
+  }
+}
+
+:root[data-theme='light'] .sun-icon {
+  display: none;
+}
+:root[data-theme='light'] .moon-icon {
+  display: block;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme='dark']) .sun-icon {
+    display: none;
+  }
+  :root:not([data-theme='dark']) .moon-icon {
+    display: block;
+  }
+}

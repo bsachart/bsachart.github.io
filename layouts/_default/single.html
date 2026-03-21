@@ -1,13 +1,19 @@
-<!DOCTYPE html>
-<html>
+{{ define "main" }}
+<article class="container">
+  <header style="margin-bottom: 3rem; text-align: center;">
+    <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem; text-wrap: balance;">{{ .Title }}</h1>
+    <div class="metadata">
+      Published on {{ .Date.Format "January 2, 2006" }}
+    </div>
+  </header>
 
-{{ partial "head.html" . }}
+  <div class="content" style="font-size: 1.125rem;">
+    {{ .Content }}
+  </div>
 
-<body>
-  <h1>{{ .Title }}</h1>
-  <p><em>Published on {{ .Date.Format "January 2, 2006" }}</em></p>
-  <div>{{ .Content }}</div>
-  <p><a href="/">Back to Home</a></p>
-</body>
-
-</html>
+  <footer
+    style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--metadata-text-color); font-family: var(--font-ui); font-size: 0.9rem;">
+    <a href="{{ site.BaseURL }}">Back to Home</a>
+  </footer>
+</article>
+{{ end }}

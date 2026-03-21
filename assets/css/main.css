@@ -92,6 +92,12 @@ a:hover {
   padding: 4rem 1rem;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+}
+
 /* Theme Toggle */
 .theme-toggle {
   background: none;

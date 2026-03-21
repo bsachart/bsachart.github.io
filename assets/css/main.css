@@ -123,17 +123,41 @@ a:hover {
   }
 }
 
-/* Theme Toggle */
+/* Top Navigation & Theme Toggle */
+.top-nav {
+  position: fixed;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  font-family: var(--font-ui);
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-color);
+  opacity: 0.6;
+  transition:
+    opacity 0.2s ease,
+    color 0.2s ease;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  color: var(--link-hover-color);
+}
+
 .theme-toggle {
   background: none;
   border: none;
   padding: 0.5rem;
   cursor: pointer;
   color: var(--text-color);
-  position: fixed;
-  top: 1.5rem;
-  right: 1.5rem;
-  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -346,9 +370,10 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  .theme-toggle {
+  .top-nav {
     top: 1rem;
     right: 1rem;
+    gap: 1rem;
   }
 
   .mobile-toc-toggle {

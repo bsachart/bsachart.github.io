@@ -4,27 +4,25 @@ date = 2025-11-08T21:14:18+02:00
 draft = false
 +++
 
-**Why Parental Choice, Not State Power, Is the Path Forward**
-
-The word lands like a bomb. *Eugenics*. It conjures images of forced sterilizations in early 20th-century America, of Nazi racial hygiene campaigns, of Francis Galton's pseudoscientific justifications for inequality. That history is real, and it's monstrous. But we're no longer living in Galton's century. Today, CRISPR can edit a single letter of DNA. Polygenic scoring can predict disease risk from an embryo. Whole-genome sequencing costs less than a laptop. The technology has arrived—and with it, a question we can't afford to let history answer for us.
+The word lands like a bomb. _Eugenics_. It conjures images of forced sterilizations in early 20th-century America, of Nazi racial hygiene campaigns, of Francis Galton's pseudoscientific justifications for inequality. That history is real, and it's monstrous. But we're no longer living in Galton's century. Today, CRISPR can edit a single letter of DNA. Polygenic scoring can predict disease risk from an embryo. Whole-genome sequencing costs less than a laptop. The technology has arrived—and with it, a question we can't afford to let history answer for us.
 
 What if the future of human genetics isn't about state control, but parental freedom? What if the guiding principle isn't coercion, but hereditary autonomy?
 
-This is the case for what philosophers have variously called *procreative beneficence*, *reprogenetics*, or *voluntary genetic selection*. Whatever the label, the core idea is simple: parents, not governments, should decide what genes their children inherit. The goal isn't to engineer a master race, but to raise the floor of human potential—reducing suffering, expanding opportunity, and fulfilling the most basic duty of parenthood: giving your child the best life possible.
+This is the case for what philosophers have variously called _procreative beneficence_, _reprogenetics_, or _voluntary genetic selection_. Whatever the label, the core idea is simple: parents, not governments, should decide what genes their children inherit. The goal isn't to engineer a master race, but to raise the floor of human potential—reducing suffering, expanding opportunity, and fulfilling the most basic duty of parenthood: giving your child the best life possible.
 
 ## The Burden of a Word
 
 The term "eugenics" is poisoned. And for good reason. The American eugenics movement, funded by luminaries like Carnegie and Rockefeller, was driven less by genetic science than by fear—fear of immigrants, poverty, and the erosion of WASP dominance. More than 60,000 Americans were forcibly sterilized. The Nazis took this logic to its terminus: genocide.
 
-But here's the crucial distinction: that was *authoritative eugenism*, the state imposing its will. What's emerging now is its inverse—*liberal eugenics* (a term coined by philosopher Nicholas Agar), where choice flows from the individual, not the collective. The tools are different, the values are different, and the outcomes could be profoundly different. We're not talking about sterilizing the "unfit." We're talking about letting parents screen embryos for Tay-Sachs, or select for a polygenic profile that reduces schizophrenia risk by 50 percent. We're talking about extending the same parental authority that chooses a child's diet, school, and vaccines to their first genetic inheritance.
+But here's the crucial distinction: that was _authoritative eugenism_, the state imposing its will. What's emerging now is its inverse—_liberal eugenics_ (a term coined by philosopher Nicholas Agar), where choice flows from the individual, not the collective. The tools are different, the values are different, and the outcomes could be profoundly different. We're not talking about sterilizing the "unfit." We're talking about letting parents screen embryos for Tay-Sachs, or select for a polygenic profile that reduces schizophrenia risk by 50 percent. We're talking about extending the same parental authority that chooses a child's diet, school, and vaccines to their first genetic inheritance.
 
 The moral intuition is already embedded in modern parenting. If you would treat your child's congenital disease with surgery, why not prevent it with a genetic edit? If you would move cities for better schools, why not select for genes that enhance cognition? The goal isn't perfection; it's responsibility.
 
 ## What the Philosophers Say
 
-Julian Savulescu calls it *procreative beneficence*—the idea that parents have a moral obligation to select, among possible embryos, the one with the best prospects for a good life. This isn't a duty to create superhumans. It's a duty to reduce needless suffering.
+Julian Savulescu calls it _procreative beneficence_—the idea that parents have a moral obligation to select, among possible embryos, the one with the best prospects for a good life. This isn't a duty to create superhumans. It's a duty to reduce needless suffering.
 
-Nicholas Agar prefers *liberal eugenics* specifically to mark the distinction from the authoritarian past. Other terms circulate: *genetic parenting*, *reprogenetics*, *hereditary autonomy*. The vocabulary matters because the word *eugenics* triggers unproductive knee-jerk responses before the argument even begins. Whatever term we use, the principle remains: genetic interventions guided by parental preferences and individual well-being, not state ideology.
+Nicholas Agar prefers _liberal eugenics_ specifically to mark the distinction from the authoritarian past. Other terms circulate: _genetic parenting_, _reprogenetics_, _hereditary autonomy_. The vocabulary matters because the word _eugenics_ triggers unproductive knee-jerk responses before the argument even begins. Whatever term we use, the principle remains: genetic interventions guided by parental preferences and individual well-being, not state ideology.
 
 Philosophers like Jürgen Habermas have also discussed these issues, though often with more skepticism about where enhancement might lead. But the basic question is the same across the debate: If it's morally acceptable to use medicine to treat diseases in children after birth, why would it be impermissible for parents to prevent those same diseases before birth through genetic intervention? The logic is straightforward. The difference between treating a disease and preventing it is one of timing, not ethics.
 
@@ -106,4 +104,4 @@ The baseline should be maximal parental freedom, with narrowly tailored restrict
 
 The genetic lottery has imposed enormous suffering throughout human history. We now have tools to mitigate that suffering. The question isn't whether to use them, but how to do so in ways that preserve freedom, promote flourishing, and maintain the human diversity that gives life richness and resilience.
 
-The word *eugenics* may be poisoned, but the future isn't. It's time to defend genetic freedom—not as a return to a dark past, but as the next frontier of parental love, social progress, and human autonomy. The state didn't give us our genes. It shouldn't control them. But it can, and must, ensure that every parent has the freedom to give their child the best start we know how to provide.
+The word _eugenics_ may be poisoned, but the future isn't. It's time to defend genetic freedom—not as a return to a dark past, but as the next frontier of parental love, social progress, and human autonomy. The state didn't give us our genes. It shouldn't control them. But it can, and must, ensure that every parent has the freedom to give their child the best start we know how to provide.

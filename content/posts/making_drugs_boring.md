@@ -4,8 +4,6 @@ date = 2025-10-09T22:13:18+02:00
 draft = false
 +++
 
-## Introduction
-
 For over half a century, the world has waged a multi-generational "War on Drugs." It has been a war fought with force, fear, and iron fists, costing trillions of dollars and resulting in millions of arrests. Yet, the outcome has been a catastrophic failure. Instead of eradication, we have a multi-billion-dollar illegal industry more powerful than ever. Instead of safety, we have unprecedented violence fueled by cartels. And instead of health, we have an overdose crisis claiming lives at a horrifying rate.
 
 The great paradox of prohibition is that the very act of making drugs a forbidden fruit has given them their power. It has made them a symbol of rebellion, a high-stakes thrill, a source of illicit glamour. The war on drugs has failed because it never addressed the core of the problem.
@@ -28,11 +26,11 @@ The true solution lies in a system designed for public health, not profit. The g
 
 Imagine a state-run authority or a tightly regulated non-profit entity as the sole producer and distributor. The goal is not revenue, but control. Here is how this "boring" framework would work:
 
-- *Production and Distribution*: Drugs would be produced to pharmaceutical-grade standards, ensuring purity and predictable potency. Sales would not occur in flashy dispensaries, but through discreet, pharmacy-like outlets staffed by trained health professionals.
-- *Plain Packaging*: All products would be sold in standardized, medical-style packaging. There would be no logos or branding—only clear labels stating the substance, dosage, and prominent health warnings.
-- *A Complete Ban on Advertising*: No marketing, no promotion, no sponsorship. The goal is to make these substances as unglamorous as possible.
-- *Strategic Price Setting*: The price would be set by the state authority. It would need to be high enough to discourage casual use but low enough to systematically outcompete and bankrupt the black market.
-- *Earmarked Revenue*: Any revenue generated must be put into a locked box used exclusively to fund the regulatory system, addiction treatment, prevention, and recovery services. The government must never become dependent on drug sales for general revenue. This would create a perverse incentive to encourage consumption, a trap we already see with other taxes. For decades, governments have grown reliant on the massive revenues from alcohol, tobacco and gambling taxes, which can undermine the political will for more aggressive public health campaigns. The same conflict of interest is visible with oil and carbon taxes, where fiscal dependency can slow the transition to cleaner energy. 
+- _Production and Distribution_: Drugs would be produced to pharmaceutical-grade standards, ensuring purity and predictable potency. Sales would not occur in flashy dispensaries, but through discreet, pharmacy-like outlets staffed by trained health professionals.
+- _Plain Packaging_: All products would be sold in standardized, medical-style packaging. There would be no logos or branding—only clear labels stating the substance, dosage, and prominent health warnings.
+- _A Complete Ban on Advertising_: No marketing, no promotion, no sponsorship. The goal is to make these substances as unglamorous as possible.
+- _Strategic Price Setting_: The price would be set by the state authority. It would need to be high enough to discourage casual use but low enough to systematically outcompete and bankrupt the black market.
+- _Earmarked Revenue_: Any revenue generated must be put into a locked box used exclusively to fund the regulatory system, addiction treatment, prevention, and recovery services. The government must never become dependent on drug sales for general revenue. This would create a perverse incentive to encourage consumption, a trap we already see with other taxes. For decades, governments have grown reliant on the massive revenues from alcohol, tobacco and gambling taxes, which can undermine the political will for more aggressive public health campaigns. The same conflict of interest is visible with oil and carbon taxes, where fiscal dependency can slow the transition to cleaner energy.
 
 ## From Cool to Clinical: Managing Access and Changing Culture
 

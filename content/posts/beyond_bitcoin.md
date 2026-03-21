@@ -4,8 +4,6 @@ date = 2025-10-15T22:13:18+02:00
 draft = false
 +++
 
-# Introduction
-
 For all the noise surrounding cryptocurrencies, it’s helpful to remember what the underlying technology is at its core: a decentralized database. This innovation, the blockchain, has the potential to be transformative. While Bitcoin was the brilliant pioneer that introduced this concept to the world, I believe its foundational model has been surpassed by a newer, more robust, and more rational system: Proof of Stake.
 
 I am not a cryptocurrency fanatic, but I do believe the technology has value. My perspective is shaped by established financial principles, which is why I find the case for staking-based cryptocurrencies like Ethereum and Solana to be fundamentally stronger than the case for Bitcoin.
@@ -14,15 +12,14 @@ I am not a cryptocurrency fanatic, but I do believe the technology has value. My
 
 To understand the advantages of staking, it's essential to first grasp the two major consensus mechanisms that cryptocurrencies use to validate transactions and secure their networks.
 
-- *Proof of Work (PoW)*, the original mechanism used by Bitcoin, relies on "miners" who compete to solve complex mathematical puzzles. This requires immense computational power and energy. The first to solve the puzzle adds the next block of transactions to the blockchain and is rewarded with new coins.
-- *Proof of Stake (PoS)*, on the other hand, is used by newer cryptocurrencies like Ethereum and Solana. Instead of mining, PoS relies on "validators" who lock up or "stake" their own cryptocurrency as collateral. In return, they get the chance to be chosen to create the next block and earn rewards.
+- _Proof of Work (PoW)_, the original mechanism used by Bitcoin, relies on "miners" who compete to solve complex mathematical puzzles. This requires immense computational power and energy. The first to solve the puzzle adds the next block of transactions to the blockchain and is rewarded with new coins.
+- _Proof of Stake (PoS)_, on the other hand, is used by newer cryptocurrencies like Ethereum and Solana. Instead of mining, PoS relies on "validators" who lock up or "stake" their own cryptocurrency as collateral. In return, they get the chance to be chosen to create the next block and earn rewards.
 
 # Enhanced Security Through Staking
 
 While Bitcoin's network has proven resilient, the PoS mechanism offers fundamental security advantages. In a PoS system, validators have a direct financial incentive to act in the network's best interest. Their own staked funds are on the line. If a validator approves fraudulent transactions, the network can automatically punish them by destroying a portion or all of their staked assets, a process known as "slashing."
 
 This brings us to the ultimate security threat: the 51% attack. To attack Bitcoin, one needs to control a majority of the global mining power. The primary cost is the massive, ongoing expenditure on hardware and electricity. To attack a PoS network like Ethereum, an attacker would need to acquire a majority of all staked ETH. This is not only incredibly expensive but economically self-defeating. The act of trying to buy up that much ETH would inevitably drive the price sky-high, making the attack exponentially more costly. Furthermore, if an attack were successful, the community could retaliate by coordinating to slash the attacker's staked funds, a powerful deterrent that simply doesn't exist in the PoW world.
-
 
 # The Sobering Reality of Energy and Efficiency
 

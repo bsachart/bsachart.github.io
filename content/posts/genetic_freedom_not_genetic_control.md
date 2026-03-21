@@ -62,23 +62,23 @@ This isn't naive faith in perfect parental judgment. Some parents might value ob
 
 Several concerns warrant careful consideration rather than dismissal.
 
-**The Expressivist Objection**
+### The Expressivist Objection
 
 Does selecting against genetic conditions express negative judgments about existing disabled people? This criticism deserves respect. There's a crucial distinction, however, between valuing existing persons with disabilities and choosing to prevent suffering in future persons. We can simultaneously support the dignity and rights of people with disabilities while believing that preventing genetic diseases in future children is a positive good.
 
-**Loss of Diversity**
+### Loss of Diversity
 
 What if widespread similar selections reduce valuable genetic variation? Are there currently "undesirable" traits that provide hidden benefits? Human diversity has value beyond what we currently understand. Some degree of variance—including traits we might now consider suboptimal—may prove valuable under changed circumstances.
 
 This is a real risk requiring ongoing research and monitoring. But selection will likely focus on disease reduction first, which eliminates only clearly deleterious variation. The traits everyone would select against—Tay-Sachs, Huntington's, severe cognitive impairment—aren't providing hidden benefits to the species. The more speculative enhancements (choosing 150+ IQ) may not work anyway due to polygenic complexity.
 
-**Illusion of Choice**
+### Illusion of Choice
 
 Even if theoretically voluntary, will social pressures make enhancement practically mandatory? If most parents enhance their children, those who don't may condemn their offspring to relative disadvantage. "Liberal" choice could become illusory in practice.
 
 This requires ensuring that enhanced and non-enhanced children can genuinely flourish side by side—perhaps through educational and social policies that preserve multiple pathways to success. As the baseline rises, what counts as "normal" will shift. This needn't be dystopian if we handle the transition thoughtfully.
 
-**Value Pluralism**
+### Value Pluralism
 
 Who decides what traits are "better"? Intelligence and disease resistance seem straightforward, but the slope grows slippery quickly. The strength of the parental choice model is precisely that it preserves pluralism rather than imposing a single vision of the good life. Different families will weight different values differently, maintaining the human variation we should preserve.
 

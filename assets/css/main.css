@@ -429,7 +429,7 @@ a:hover {
 /* Further Reading */
 .further-reading {
   grid-column: 2;
-  margin-top: 6rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
   width: 100%;
   max-width: 900px;
@@ -439,12 +439,10 @@ a:hover {
 
 .further-reading-title {
   text-align: center;
-  font-family: var(--font-ui);
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--metadata-text-color);
-  margin-bottom: 3rem;
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-bottom: 2rem;
   font-weight: 500;
 }
 
@@ -472,9 +470,7 @@ a:hover {
 
 .further-reading-label {
   font-family: var(--font-ui);
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  font-size: 0.9rem;
   color: var(--link-hover-color);
   margin-bottom: 1rem;
 }

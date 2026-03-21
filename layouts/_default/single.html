@@ -51,7 +51,7 @@
             <div class="further-reading-label">Previous</div>
             <a href="{{ .Permalink }}">
               <h3 class="post-title">{{ .Title }}</h3>
-              <p class="post-summary">{{ .Summary | plainify | safeHTML }}</p>
+              <p class="metadata">{{ .Date.Format "January 2, 2006" }}</p>
             </a>
             {{ end }}
           </div>
@@ -60,7 +60,7 @@
             <div class="further-reading-label">Next</div>
             <a href="{{ .Permalink }}">
               <h3 class="post-title">{{ .Title }}</h3>
-              <p class="post-summary">{{ .Summary | plainify | safeHTML }}</p>
+              <p class="metadata">{{ .Date.Format "January 2, 2006" }}</p>
             </a>
             {{ end }}
           </div>

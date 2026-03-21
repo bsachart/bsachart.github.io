@@ -463,14 +463,6 @@ a:hover {
   color: var(--text-color);
 }
 
-.further-reading .post-summary {
-  font-family: var(--font-body);
-  font-size: 1.1rem;
-  color: var(--metadata-text-color);
-  margin: 0;
-  line-height: var(--lh-body);
-}
-
 @media (max-width: 768px) {
   .further-reading-grid {
     flex-direction: column;

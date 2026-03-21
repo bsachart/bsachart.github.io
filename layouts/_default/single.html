@@ -1,11 +1,14 @@
 {{ define "main" }}
 <article>
   <div class="article-layout{{ if not (and .TableOfContents (findRE " <li>" .TableOfContents)) }} no-toc{{ end }}">
-    <header style="grid-column: 2; margin-bottom: 3rem; text-align: center;">
+    <header style="grid-column: 2; margin-bottom: 3rem; text-align: {{ if eq .Type " page" }}left{{ else }}center{{ end
+      }};">
       <h1 style="font-size: 3rem; margin-bottom: 0.5rem; text-wrap: balance;">{{ .Title }}</h1>
+      {{ if eq .Type "posts" }}
       <div class="metadata">
         Published on {{ .Date.Format "January 2, 2006" }}
       </div>
+      {{ end }}
     </header>
 
     {{ if .Params.toc | default true }}
@@ -43,6 +46,7 @@
         {{ .Content }}
       </div>
 
+      {{ if eq .Type "posts" }}
       <div class="further-reading">
         <h2 class="further-reading-title">Further Reading</h2>
         <div class="further-reading-grid">
@@ -66,6 +70,7 @@
           </div>
         </div>
       </div>
+      {{ end }}
 
       <footer class="article-footer">
         <a href="{{ site.BaseURL }}">Back to Home</a>

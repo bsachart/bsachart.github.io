@@ -18,9 +18,10 @@
 
   <script>
     (function () {
-      var localTheme = localStorage.getItem('theme');
-      var isDarkSystem = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (localTheme === 'dark' || (!localTheme && isDarkSystem)) {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme) {
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.documentElement.setAttribute('data-theme', 'dark');
       } else {
         document.documentElement.setAttribute('data-theme', 'light');

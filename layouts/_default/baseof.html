@@ -27,17 +27,56 @@
   </main>
   <script>
     function toggleTheme() {
-      var currentTheme = document.documentElement.getAttribute('data-theme');
-      var isDarkSystem = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      var targetTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      const html = document.documentElement;
+      const savedTheme = localStorage.getItem('theme');
+      const isDarkSystem = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const currentTheme = savedTheme || (isDarkSystem ? 'dark' : 'light');
+      const targetTheme = currentTheme === 'dark' ? 'light' : 'dark';
 
-      if (!currentTheme) {
-        targetTheme = isDarkSystem ? 'light' : 'dark';
-      }
-
-      document.documentElement.setAttribute('data-theme', targetTheme);
+      html.setAttribute('data-theme', targetTheme);
       localStorage.setItem('theme', targetTheme);
     }
+
+    (function () {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme) {
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      }
+    })();
+
+    // Mobile TOC Toggle
+    function toggleMobileTOC() {
+      const overlay = document.getElementById('mobileTocOverlay');
+      if (overlay) {
+        overlay.classList.toggle('active');
+        document.body.style.overflow = overlay.classList.contains('active') ? 'hidden' : '';
+      }
+    }
+
+    // ScrollSpy for TOC
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          const id = entry.target.getAttribute('id');
+          if (entry.isIntersecting && id) {
+            document.querySelectorAll('#TableOfContents a').forEach(a => a.classList.remove('active'));
+            const activeLinks = document.querySelectorAll(`#TableOfContents a[href="#${id}"]`);
+            activeLinks.forEach(link => link.classList.add('active'));
+          }
+        });
+      }, { rootMargin: '0px 0px -80% 0px' });
+
+      document.querySelectorAll('h1[id], h2[id], h3[id]').forEach(section => {
+        observer.observe(section);
+      });
+
+      // Close mobile TOC on link click
+      document.querySelectorAll('.mobile-toc-overlay #TableOfContents a').forEach(link => {
+        link.addEventListener('click', () => {
+          toggleMobileTOC();
+        });
+      });
+    });
   </script>
 </body>
 

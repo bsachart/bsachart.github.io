@@ -42,6 +42,10 @@
 }
 
 /* Global Elements */
+html {
+  font-size: clamp(16px, 1.1vw + 12px, 22px);
+}
+
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -87,14 +91,14 @@ a:hover {
 
 /* Layout Utilities */
 .container {
-  max-width: 65ch;
+  max-width: 72ch;
   margin: 0 auto;
-  padding: 4rem 1rem;
+  padding: 5rem 1.5rem;
 }
 
 @media (max-width: 768px) {
   .container {
-    padding: 2rem 1rem;
+    padding: 3rem 1.25rem;
   }
 }
 

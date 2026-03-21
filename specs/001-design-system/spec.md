@@ -3,7 +3,7 @@
 **Feature Branch**: `001-design-system`  
 **Created**: 2026-03-21  
 **Status**: Draft  
-**Input**: User description: "Create the Anthemion Editorial design system to follow. Typography: Newsreader for headings and body text, Manrope for metadata and UI elements. Color Palette: Unified light/dark background colors for smooth transition and high contrast. Link Hovers: Emerald green for interactive links. Typography-focused minimalist blog on homepage, minimalist article page with single column, Newsreader for title/subheadings, Manrope for dates/nav."
+**Input**: User description: "Create the Anthemion Editorial design system to follow. Typography: Newsreader for headings, Manrope for body text, metadata and UI elements. Color Palette: Unified light/dark background colors for smooth transition and high contrast. Link Hovers: Emerald green for interactive links. Typography-focused minimalist blog on homepage, minimalist article page with single column, Newsreader for title/subheadings, Manrope for dates/nav."
 
 ## User Scenarios & Testing _(mandatory)_
 
@@ -17,7 +17,7 @@ As a reader, I want to experience a unified light/dark mode color palette and ty
 
 **Acceptance Scenarios**:
 
-1. **Given** a user is viewing the blog in light mode, **When** they read text, **Then** headings and body text use Newsreader, and metadata uses Manrope on a high-contrast light background.
+1. **Given** a user is viewing the blog in light mode, **When** they read text, **Then** headings use Newsreader, and body text and metadata use Manrope on a high-contrast light background.
 2. **Given** a user toggles to dark mode, **When** the theme switches, **Then** the background transitions smoothly to the dark theme colors while maintaining high contrast.
 
 ---
@@ -58,8 +58,8 @@ As a reader on an individual article page, I want to read content in a single, c
 
 ### Functional Requirements
 
-- **FR-001**: System MUST implement Newsreader for all headings and body text.
-- **FR-002**: System MUST implement Manrope for all metadata and UI elements (dates, nav).
+- **FR-001**: System MUST implement Newsreader for all headings.
+- **FR-002**: System MUST implement Manrope for all body text, metadata and UI elements (dates, nav).
 - **FR-003**: System MUST provide high-contrast background colors for both Light and Dark modes.
 - **FR-004**: System MUST apply an emerald green hover state to all interactive links.
 - **FR-005**: System MUST render the homepage without an 'About' link and focus solely on typography.

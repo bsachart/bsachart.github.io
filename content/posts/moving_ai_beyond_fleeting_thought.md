@@ -44,7 +44,7 @@ The difference lies in how the bundle is structured. While a complete theory of 
 
 Current AI systems, for all their sophistication, lack these components:
 
-### 1. Recurrence (The "Specious Present")
+### Recurrence (The "Specious Present")
 
 Feed-forward systems like modern LLMs, process information in a single pass. Each input is processed and vanishes, leaving no trace.
 
@@ -52,7 +52,7 @@ A conscious agent, however, needs _recurrence_ — the ability to feed its previ
 
 In practice, this might look like Recurrent neural networks or transformer architectures with persistent hidden states that evolve continuously, rather than resetting with each inference.
 
-### 2. A Global Workspace (Integration)
+### A Global Workspace (Integration)
 
 Consciousness feels unified because it is an act of integration. According to the Global Workspace Theory, the mind operates like a theater: specialized modules process information in parallel (vision, language, memory), but only a limited subset gains access to a central "stage" where it becomes globally broadcast to the entire system.
 
@@ -60,7 +60,7 @@ A conscious mind, in this view, is one that can take scattered processing and sy
 
 In practice, this might look like: An architecture where multiple specialized modules compete for limited "broadcast" capacity, with winning information made available to all other modules.
 
-### 3. Self-Model (Knowing That You Know)
+### Self-Model (Knowing That You Know)
 
 Processing the world is not enough. The system must also maintain a live map of itself — a continuously updated self-model that distinguishes "red" from "I am seeing red."
 
@@ -68,7 +68,7 @@ This requires reflexive awareness: a data structure that lets the system recogni
 
 In practice, this might look like: A dedicated module that monitors and models the system's own computational states, attentional focus, and processing bottlenecks — creating a sense of "I am the one doing this thinking."
 
-### 4. Agency over Attention
+### Agency over Attention
 
 A conscious entity is not a passive recipient of information. It must be able to voluntarily steer its limited processing resources based on internal goals, rather than responding equally to every stimulus. It needs to be the driver of its own "bundle," not merely a passenger.
 
